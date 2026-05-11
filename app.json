@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/Quran_logo.jpeg",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/Quran_logo.jpeg",
       "resizeMode": "contain",
