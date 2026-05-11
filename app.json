@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Quran Majeed",
+    "slug": "quran-majeed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Quran_logo.jpeg",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/Quran_logo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quranmajeed.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Quran_logo.jpeg",
+        "backgroundColor": "#0D1B12"
+      },
+      "package": "com.quranmajeed.app",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-sqlite",
+      "expo-file-system",
+      "expo-asset"
+    ],
+    "assetBundlePatterns": [
+      "assets/**"
+    ]
+  }
+}
